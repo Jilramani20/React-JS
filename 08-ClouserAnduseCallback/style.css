@@ -1,0 +1,90 @@
+/* reset and base styles */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    color: #333;
+}
+
+#root{
+    width: 100%;
+    max-width: 560px;
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 24px;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+input[type="range"]{
+    width: 100%;
+    max-width: 420px;
+    cursor: pointer;
+    appearance: none;
+    background: transparent;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 8px;
+    background: #89CFF0;
+    border-radius: 4px;
+}
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #005f99;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+input[type="range"]:focus {
+    outline: none;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    accent-color: #005f99;
+}
+
+label{
+    font-size: 1rem;
+}
+
+/* small responsive tweaks */
+@media (max-width: 480px) {
+    #root {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    input[type="range"]{
+        max-width: 100%;
+    }
+}

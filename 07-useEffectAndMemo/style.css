@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#root{
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(220, 237, 237);
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color:white;
+}
+
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#purple{
+    background-color: purple;
+}
+
+#increment{
+    background-color: black;
+}
+
+.counter{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: tomato;
+}

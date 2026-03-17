@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#root{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: crimson;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    
+}

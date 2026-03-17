@@ -1,0 +1,25 @@
+{
+  "name": "reactbasic",
+  "version": "1.0.0",
+  "description": "\"Learning React\"",
+  "homepage": "https://github.com/Jilramani20/React#readme",
+  "bugs": {
+    "url": "https://github.com/Jilramani20/React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jilramani20/React.git"
+  },
+  "license": "ISC",
+  "author": "Jil Ramani",
+  "type": "commonjs",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
