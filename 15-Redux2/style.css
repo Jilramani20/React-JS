@@ -1,0 +1,36 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#root{
+    
+    background-color: rgb(220, 237, 237);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+button{
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: medium;
+    background-color:black;
+}
+
+input{
+    width: 150px;
+    text-align: center;
+    font-size: medium;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+ */
