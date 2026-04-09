@@ -1,0 +1,18 @@
+{
+  "name": "19-theory",
+  "version": "1.0.0",
+  "description": "We proved before that keys are attached to components state.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
