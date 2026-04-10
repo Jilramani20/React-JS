@@ -1,0 +1,21 @@
+{
+  "name": "19-tailwind",
+  "version": "1.0.0",
+  "description": "**Syntax:** `property-color-intensity`",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
